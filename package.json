@@ -1,0 +1,24 @@
+{
+  "name": "password-strength-analyzer",
+  "version": "1.0.0",
+  "description": "Comprehensive Password Strength Analyzer, Generator, History Database, and Cryptography Lab",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node cli.js",
+    "test": "node --test test/analyzer.test.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "password-strength",
+    "entropy",
+    "cryptography",
+    "nist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
